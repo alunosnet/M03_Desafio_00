@@ -54,10 +54,9 @@ def TextoInvertido(palav):
     invert = ""
     for letra in (palav):
         invert = letra + invert
-    invert = invert.lower()
     print (invert)
 
-
+TextoInvertido("Frederico")
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
 Por exemplo:
