@@ -20,7 +20,15 @@ def LetrasIguais_versao_2(palavra):
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
 
-
+def NumeroDePares(n1,n2,n3):
+    contar = 0
+    if n1%2 == 0:
+        contar = contar +1
+    if n2%2 == 0:
+        contar = contar +1
+    if n3%2 == 0:
+        contar = contar +1
+    print(contar)
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
@@ -34,8 +42,12 @@ Por exemplo:
 """
 
 def main():
-    LetrasIguais("hello")
-    LetrasIguais_versao_2("hello")
-
+    #LetrasIguais("hello")
+    #LetrasIguais_versao_2("hello")
+    NumeroDePares(10,4,8)
+    NumeroDePares(1,3,5)
+    NumeroDePares(10,3,8)
+    
+    
 if __name__=="__main__":
     main()
