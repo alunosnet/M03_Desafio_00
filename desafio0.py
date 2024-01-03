@@ -14,13 +14,17 @@ letras_iguais("hellow")
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
+def numerosdepares(n1,n2,n3):
+    contar=0
+    if n1%2 ==0:
+        contar = contar +1
+    if n2%2 ==0:
+        contar = contar +1
+    if n3%2 ==0:
+        contar = contar +1
+    print(contar)
 
     
-
-
-
-
-
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
@@ -31,3 +35,10 @@ letras_iguais("hellow")
 Por exemplo:
     Hello - deve devolver Hlo
 """
+
+
+
+def main():
+    numerosdepares(10,4,8)
+    numerosdepares(1,3,5)
+    numerosdepares(10,3,8)
