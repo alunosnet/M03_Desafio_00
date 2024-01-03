@@ -15,8 +15,15 @@ print('-----')
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
+def Pares(n1,n2,n3):
+    if n1%2==0:
+        print('par')
+    if n2%2==0:
+        print('par')
+    if n3%2==0:
+        print('par')
 
-
+Pares(6,20,9)
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
