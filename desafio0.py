@@ -51,9 +51,9 @@ def revertText(Text):
     reversedText = ""
 
     for i in range(len(Text)):
-        reversedText = reversedText + Text[-1 - i]
+        reversedText = reversedText + Text[len(Text) -1 -i]
 
-    return(reversedText)
+    return reversedText
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
@@ -68,4 +68,4 @@ def removeLettersAlternately(word):
         if i % 2 == 0:
             text = text + word[i]
 
-    return(text)
+    return text
