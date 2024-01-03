@@ -16,6 +16,18 @@ def duplicatedLetters(word):
     print("Duplicated letters: ", final)
 
 """
+V2 do exercisio 1 usando um ciclo while
+"""
+
+def duplicatedLettersV2(word):
+    position = 0
+
+    while position < len(word) - 1:
+        if word[position] == word[position + 1]:
+            print(word[position])
+        position = position + 1
+
+"""
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
 
