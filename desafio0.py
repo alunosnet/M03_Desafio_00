@@ -1,3 +1,4 @@
+#Frederico SOusa nº8
 """
 1 - Cria uma função que recebe um texto. A função deve mostrar uma letra sempre que existirem duas letras seguidas iguais.
 Por exemplo: 
@@ -49,9 +50,12 @@ def TresPares(num1, num2, num3):
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
-def TextoInvertido():
-    
-    exit
+def TextoInvertido(palav):
+    invert = ""
+    for letra in (palav):
+        invert = letra + invert
+    invert = invert.lower()
+    print (invert)
 
 
 """
