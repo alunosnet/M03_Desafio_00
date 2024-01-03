@@ -45,11 +45,11 @@ def TextoAlterado(palavra):
 
 
 def main():
-    #LetrasIguais("Hello")
-    #Pares(10,4,8)
-    #Pares(23,6,3)
-    #print(InverterTexto("hello"))
-    #print(TextoAlterado('Hello'))
+    LetrasIguais("Hello")
+    Pares(10,4,8)
+    Pares(23,6,3)
+    print(InverterTexto("hello"))
+    print(TextoAlterado('Hello'))
 
 if __name__ == "__main__":
     main()
