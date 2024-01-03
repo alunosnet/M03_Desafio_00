@@ -67,6 +67,13 @@ def TextoAleternado(palav):
             texto = texto + palav[i]
     return(texto)
 
+def TextoAleternado2(palav):
+    texto = ""
+    for i in range (0,len(palav),2): 
+        text = texto + palav[i]
+    return(texto)
+
+
 
 def main():
     NumeroLetrasSeguidos("Feederico")
