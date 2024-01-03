@@ -19,7 +19,15 @@ def LetrasIguaisV2(palavra):
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
-
+def Numeros(n1,n2,n3):
+    contagem = 0
+    if n1 % 2 == 0:
+        contagem = contagem + 1
+    if n2 % 2 == 0:
+        contagem = contagem + 1
+    if n3 % 2 == 0:
+        contagem = contagem + 1
+    print(f"Existem {contagem} números pares")
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
