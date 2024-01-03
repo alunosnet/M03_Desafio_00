@@ -4,6 +4,16 @@ Por exemplo:
     Hello - deve mostrar l
 """
 
+def duplicatedLetters(word):
+    letter = ""
+    text = ""
+    
+    for i in word:
+        if i == letter:
+            text = text + letter
+        letter = i
+
+    print("Duplicated letters: ", text)
 
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
