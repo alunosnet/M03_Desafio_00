@@ -3,6 +3,13 @@
 Por exemplo: 
     Hello - deve mostrar l
 """
+def LetraRepetida(palavra):
+    for i in range(len(palavra) - 1):
+        if palavra[i] == palavra[i + 1]:
+            print(palavra[i])
+
+LetraRepetida("Hello")
+
 
 
 """
