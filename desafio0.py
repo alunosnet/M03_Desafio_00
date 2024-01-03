@@ -4,6 +4,13 @@ Por exemplo:
     Hello - deve mostrar l
 """
 
+def LetrasIguais(palavra):
+    for posicao in range(len(palavra)-1):
+        if palavra[posicao]==palavra[posicao+1]:
+            print(palavra[posicao])
+
+LetrasIguais('Hello')
+print('-----')
 
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
