@@ -28,7 +28,7 @@ def Pares(n1,n2,n3):
 def InverterTexto(palavra):
     texto_invertido=""
     for letra in palavra:
-        texto_invertido=
+        texto_invertido=letra+texto_invertido
     return texto_invertido
 
 
@@ -40,9 +40,10 @@ Por exemplo:
 
 
 def main():
-    LetrasIguais("Hello")
-    Pares(10,4,8)
-    Pares(23,6,3)
+    #LetrasIguais("Hello")
+    #Pares(10,4,8)
+    #Pares(23,6,3)
+    print(InverterTexto("hello"))
 
 if __name__ == "__main__":
     main()
