@@ -43,3 +43,8 @@ def InverterTexto(palavra):
 Por exemplo:
     Hello - deve devolver Hlo
 """
+def RetirarLetra(palavra):
+    texto = ""
+    for i in range(0,len(palavra),2):
+        texto = texto + palavra[i]
+    return texto
