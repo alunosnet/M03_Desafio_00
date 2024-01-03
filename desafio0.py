@@ -47,10 +47,11 @@ Por exemplo:
     Hello - deve devolver Hlo
 """
 
-def TextoAlternado(palavra):
+def PalavraAlternada(palavra):
     palavra_alternada = ""
-    for posicao in range(len(palavra)):
-        palavra_alternada = palavra_alternada + palavra[posicao + 2]
-    print(palavra_alternada)
+    for i in range(len(palavra)):
+        if i % 2 == 0:
+            palavra_alternada += palavra[i]
+    return (palavra_alternada)
 
-TextoAlternado("Hello")
+print(PalavraAlternada("Hello"))
