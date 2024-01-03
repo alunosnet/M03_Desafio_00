@@ -60,10 +60,10 @@ def PalavraAlternada(palavra):
 
 print(PalavraAlternada("Hello"))
 
-def PalavraAlternada2(palavra):
+def PalavraAlternadaV2(palavra):
     palavra_alternada = ""
     for i in range(0,len(palavra),2):
             palavra_alternada += palavra[i]
     return (palavra_alternada)
 
-print(PalavraAlternada2("Hello"))
+print(PalavraAlternadaV2("Hello"))
