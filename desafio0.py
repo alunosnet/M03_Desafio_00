@@ -81,6 +81,7 @@ def main():
     TresPares(1, 2, 3)
     print(TextoInvertido("Frederico"))
     print(TextoAleternado("Frederico"))
+    print(TextoAleternado2("Frederico"))
 
 if __name__ == "__main__":
     main()  
