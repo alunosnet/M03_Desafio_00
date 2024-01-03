@@ -32,7 +32,11 @@ def Numeros(n1,n2,n3):
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
-
+def InverterTexto(palavra):
+    texto_invertido = ""
+    for letra in palavra:
+        texto_invertido = letra + texto_invertido
+    return texto_invertido
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
