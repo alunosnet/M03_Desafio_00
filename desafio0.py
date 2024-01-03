@@ -39,6 +39,12 @@ def invertertexto(palavra):
 Por exemplo:
     Hello - deve devolver Hlo
 """
+def textoalternado(palavra):
+    texto=""
+    for i in range(0,len(palavra),2):
+        texto = texto + palavra[i]
+    returntexto
+
 
 
 
@@ -46,7 +52,8 @@ def main():
     #numerosdepares(10,4,8)
     #numerosdepares(1,3,5)
     #numerosdepares(10,3,8)
-    print(invertertexto("hello"))
+    #print(invertertexto("hello"))
+    print(textoalternado("hello"))
 
 
 if __name__=="__main__":
