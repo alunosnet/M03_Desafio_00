@@ -41,9 +41,9 @@ def PalavraInvertida(palavra):
     palavra_invetida = ""
     for i in range(len(palavra)):
         palavra_invetida = palavra_invetida + palavra[-1 -i]
-    print(palavra_invetida)
+    return palavra_invetida
 
-PalavraInvertida("Hello")
+print(PalavraInvertida("Hello"))
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
