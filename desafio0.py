@@ -17,6 +17,7 @@ def letrasiguais_versao2():
         if palavra[posicao]==palavra[posicao+1]:
             print(palavra[posicao])
         posicao=posicao+1
+
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
@@ -47,3 +48,16 @@ Por exemplo:
     Hello - deve devolver Hlo
 """
 
+def texto_alternado(palavra):
+    texto=""
+    for i in range(0,len(palavra,2)):
+        texto=texto+palavra[i]
+    return texto
+
+def main():
+    letras_iguais()
+    letrasiguais_versao2()
+    numeros_pares()
+
+if __name__=="__main__":
+    main()
