@@ -28,7 +28,11 @@ def numerosdepares(n1,n2,n3):
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
-
+def invertertexto(palavra):
+    texto_invertido=""
+    for letra in palavra:
+        texto_invertido = letra + texto_invertido
+    return texto_invertido
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
@@ -39,6 +43,11 @@ Por exemplo:
 
 
 def main():
-    numerosdepares(10,4,8)
-    numerosdepares(1,3,5)
-    numerosdepares(10,3,8)
+    #numerosdepares(10,4,8)
+    #numerosdepares(1,3,5)
+    #numerosdepares(10,3,8)
+    print(invertertexto("hello"))
+
+
+if __name__=="__main__":
+    main()
