@@ -37,8 +37,11 @@ NumerosPares(1,2,4)
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
-def TextoInvertido(palavra):
-    pass
+def PalavraInvertida(palavra):
+    palavra_invetida = ""
+    for i in range(len(palavra)):
+        palavra_invetida = palavra_invetida + palavra[-1 -i]
+    print(palavra_invetida)
 
 
 """
