@@ -42,9 +42,15 @@ def Inverter_Texto(palavra):
 Por exemplo:
     Hello - deve devolver Hlo
 """
+def textoAlternado(palavra):
+    texto=""
+    for i in range(0,len(palavra),2):
+        texto=texto+palavra[i]
+    return texto
 
 def main():
     print(Inverter_Texto("Hello"))
+    print(textoAlternado("Hello"))
 
 if __name__=="__main__":
     main()
