@@ -15,12 +15,26 @@ def mostrar_letra_versao_2(palavra):
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
+def num_pares(n1,n2,n3):
+    pares=0
+    if n1%2==0:
+        pares=pares+1
+    if n2%2==0:
+        pares=pares+1
+    if n3%2==0:
+        pares=pares+1
+    print(pares)
 
 
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
+def Inverter_Texto(palavra):
+    texto_invertido=""
+    for letra in palavra:
+        texto_invertido=letra+texto_invertido
+    return texto_invertido
 
 
 """
@@ -28,3 +42,9 @@ def mostrar_letra_versao_2(palavra):
 Por exemplo:
     Hello - deve devolver Hlo
 """
+
+def main():
+    print(Inverter_Texto("Hello"))
+
+if __name__=="__main__":
+    main()
