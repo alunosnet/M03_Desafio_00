@@ -45,7 +45,6 @@ def TresPares(num1, num2, num3):
     if num3 %2 == 0:
         pares += 1
     print(pares)
-TresPares(1, 2, 3)
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
@@ -54,9 +53,8 @@ def TextoInvertido(palav):
     invert = ""
     for letra in (palav):
         invert = letra + invert
-    print (invert)
+    return(invert)
 
-TextoInvertido("Frederico")
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
 Por exemplo:
@@ -67,6 +65,15 @@ def TextoAleternado(palav):
     for i in range (len(palav)): 
         if i%2 == 0:
             texto = texto + palav[i]
-    print(texto)
+    return(texto)
 
-TextoAleternado("Frederico")
+
+def main():
+    NumeroLetrasSeguidos("Feederico")
+    NumeroLetrasSeguidosVersao2("hello")
+    TresPares(1, 2, 3)
+    print(TextoInvertido("Frederico"))
+    print(TextoAleternado("Frederico"))
+
+if __name__ == "__main__":
+    main()  
