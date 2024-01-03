@@ -22,17 +22,28 @@ def letrasiguais_versao2():
 """
 
 def numeros_pares():
-    for i in range(3):
-        n=int(input("Escreva um numero:"))
-
+    contar=0
+    if n1%2==0:
+        contar=contar+1
+    if n2%2==0:
+        contar=contar+1
+    if n3%2==0:
+        contar=contar+1
+    print(contar)
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
 
+def invertertexto(palavra):
+    terxto_invetido=""
+    for letra in palavra:
+        terxto_invetido=letra+terxto_invetido
+    return terxto_invetido
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
 Por exemplo:
     Hello - deve devolver Hlo
 """
+
