@@ -37,7 +37,7 @@ NumeroLetrasSeguidos("Feederico")
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
 def TresPares(num1, num2, num3):
-    pare = 0
+    pares = 0
     if num1 %2 == 0:
         pares += 1
     if num2 %2 == 0:
@@ -45,7 +45,7 @@ def TresPares(num1, num2, num3):
     if num3 %2 == 0:
         pares += 1
     print(pares)
-
+TresPares(1, 2, 3)
 
 """
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
@@ -62,3 +62,11 @@ TextoInvertido("Frederico")
 Por exemplo:
     Hello - deve devolver Hlo
 """
+def TextoAleternado(palav):
+    texto = ""
+    for i in range (len(palav)): 
+        if i%2 == 0:
+            texto = texto + palav[i]
+    print(texto)
+
+TextoAleternado("Frederico")
