@@ -3,6 +3,16 @@
 Por exemplo: 
     Hello - deve mostrar l
 """
+def NumeroLetrasSeguidos(palav):
+    letra1 = ""
+    texto= ""
+    for i in palav:
+        if i == letra1:
+            texto = texto + letra1
+        letra1 = i
+    print (texto)
+
+NumeroLetrasSeguidos("Helllo")
 
 
 """
