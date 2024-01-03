@@ -6,7 +6,7 @@ Por exemplo:
 
 
 """
-2 - Cria uma função que recebe dois números. Esta função deve mostrar quantos dos números são pares.
+2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
 
 
@@ -17,5 +17,7 @@ Por exemplo:
 
 
 """
-4 - Faz uma função que recebe 
+4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
+Por exemplo:
+    Hello - deve devolver Hlo
 """
