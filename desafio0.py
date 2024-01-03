@@ -64,8 +64,7 @@ Por exemplo:
 def removeLettersAlternately(word):
     text = ""
 
-    for i in range(len(word)):
-        if i % 2 == 0:
-            text = text + word[i]
+    for i in range(0, len(word), 2):
+        text = text + word[i]
 
     return text
