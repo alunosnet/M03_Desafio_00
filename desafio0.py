@@ -70,7 +70,7 @@ def TextoAleternado(palav):
 def TextoAleternado2(palav):
     texto = ""
     for i in range (0,len(palav),2): 
-        text = texto + palav[i]
+        texto = texto + palav[i]
     return(texto)
 
 
