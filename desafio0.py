@@ -3,7 +3,7 @@
 Por exemplo: 
     Hello - deve mostrar l
 """
-
+def 
 
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
