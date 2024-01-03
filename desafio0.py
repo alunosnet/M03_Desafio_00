@@ -21,7 +21,7 @@ def NumeroLetrasSeguidosVersao2(palav):
     while True:
         if palav[numer1] == palav[numer1+1]:
             texto = texto + palav[numer1]
-        if len(palav)-1 > numer1:
+        if len(palav)-2 <= numer1:
             break
         numer1 += 1
     print (texto)
