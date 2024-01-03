@@ -3,8 +3,15 @@
 Por exemplo: 
     Hello - deve mostrar l
 """
+def mostrar_letra (palavra):
+    for posiçao in range(len(palavra)-1):
+        if palavra[posiçao]==palavra[posiçao+1]:
+            print(palavra[posiçao])
 
 
+mostrar_letra("Hello")
+def mostrar_letra_versao_2(palavra):
+        pass
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
