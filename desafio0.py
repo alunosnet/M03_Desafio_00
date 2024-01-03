@@ -35,8 +35,15 @@ NumeroLetrasSeguidos("Feederico")
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
-def TresPares():
-    exit
+def TresPares(num1, num2, num3):
+    pare = 0
+    if num1 %2 == 0:
+        pares += 1
+    if num2 %2 == 0:
+        pares += 1
+    if num3 %2 == 0:
+        pares += 1
+    print(pares)
 
 
 """
