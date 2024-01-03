@@ -35,9 +35,17 @@ def howManyPairNumbers(n1, n2, n3):
 3 - Faz uma função que recebe um texto e devolve o texto invertido.
 """
 
+def revertText(Text):
+    reversedText = ""
+
+    for i in range(len(Text)):
+        reversedText = reversedText + Text[-1 - i]
+
+    print(reversedText)
 
 """
 4 - Faz uma função que recebe um texto e devolve esse texto removendo uma letra alternadamente.
 Por exemplo:
     Hello - deve devolver Hlo
 """
+
