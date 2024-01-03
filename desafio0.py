@@ -61,3 +61,11 @@ Por exemplo:
     Hello - deve devolver Hlo
 """
 
+def removeLettersAlternately(word):
+    text = ""
+
+    for i in range(len(word)):
+        if i % 2 == 0:
+            text = text + word[i]
+            
+    print(text)
