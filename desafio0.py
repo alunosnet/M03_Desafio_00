@@ -3,11 +3,21 @@
 Por exemplo: 
     Hello - deve mostrar l
 """
-def 
+def letras_iguais(palavra):
+    for posição in range (len(palavra)-1):
+        if palavra[posição]==palavra[posição+1]:
+            print(palavra[posição])
+
+letras_iguais("hellow")
+        
 
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
+
+    
+
+
 
 
 
