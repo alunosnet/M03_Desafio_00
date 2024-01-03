@@ -10,11 +10,20 @@ def LetraRepetida(palavra):
 
 LetraRepetida("Hello")
 
-
-
 """
 2 - Cria uma função que recebe três números. Esta função deve mostrar, para os números passados, quantos são pares.
 """
+def NumerosPares(n1,n2,n3):
+    numeros_pares = 0
+    if n1 % 2 == 0:
+        numeros_pares = numeros_pares + 1
+    if n2 % 2 == 0:
+        numeros_pares = numeros_pares + 1
+    if n3 % 2 == 0:
+        numeros_pares = numeros_pares + 1
+    print(numeros_pares)
+
+NumerosPares(1,2,4)
 
 
 
